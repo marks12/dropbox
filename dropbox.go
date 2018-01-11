@@ -231,9 +231,9 @@ func NewDropbox() *Dropbox {
 	db := &Dropbox{
 		RootDirectory: "auto", // auto (recommended), dropbox or sandbox.
 		Locale:        "en",
-		APIURL:        "https://api.dropbox.com/1",
-		APIContentURL: "https://api-content.dropbox.com/1",
-		APINotifyURL:  "https://api-notify.dropbox.com/1",
+		APIURL:        "https://api.dropbox.com/2",
+		APIContentURL: "https://api-content.dropbox.com/2",
+		APINotifyURL:  "https://api-notify.dropbox.com/2",
 		ctx:           oauth2.NoContext,
 	}
 	return db
