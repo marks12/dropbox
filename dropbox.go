@@ -247,8 +247,8 @@ func (db *Dropbox) SetAppInfo(clientid, clientsecret string) error {
 		ClientID:     clientid,
 		ClientSecret: clientsecret,
 		Endpoint: oauth2.Endpoint{
-			AuthURL:  "https://www.dropbox.com/1/oauth2/authorize",
-			TokenURL: "https://api.dropbox.com/1/oauth2/token",
+			AuthURL:  "https://www.dropbox.com/oauth2/authorize",
+			TokenURL: "https://api.dropbox.com/oauth2/token",
 		},
 	}
 	return nil
